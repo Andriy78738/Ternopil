@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туристичний гід по Тернополю</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Тернопіль – місто затишку і натхнення</h1>
+        <nav>
+            <ul>
+                <li><a href="#top-places">ТОП локації</a></li>
+                <li><a href="#map">Карта</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="top-places">
+        <h2>ТОП-5 місць для відвідування</h2>
+        <div class="places">
+            <div class="place">
+                <img src="images/stav.jpg" alt="Тернопільський став">
+                <h3>Тернопільський став</h3>
+                <p>Чудове місце для прогулянок на теплоході.</p>
+            </div>
+            <div class="place">
+                <img src="images/zamok.jpg" alt="Тернопільський замок">
+                <h3>Тернопільський замок</h3>
+                <p>Історична пам’ятка, заснована у 1540 році.</p>
+            </div>
+            <div class="place">
+                <img src="images/sobor.jpg" alt="Катедральний собор">
+                <h3>Катедральний собор</h3>
+                <p>Один із найгарніших храмів Тернополя.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <h2>Карта Тернополя</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26039.502992180264!2d25.5957508!3d49.5535176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473036be068ce8e1%3A0x7d9b00e27a0a65fa!2z0KLQstC10YDRgdC60LDRjywg0KLQstC10YDRgdC60LDRjyDQkNC70YzQvdCw!5e0!3m2!1suk!2sua!4v1711636499092!5m2!1suk!2sua" 
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Контакти</h2>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Туристичний гід по Тернополю</p>
+    </footer>
+</body>
+</html>
